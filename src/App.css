@@ -1,0 +1,36 @@
+.app {
+  color: green;
+  font-size: 12px;
+}
+
+.user {
+  background: #000;
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  max-width: 8px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background: #222;
+}
+
+.paginationBttns a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.page-active a {
+  background: #000;
+}
